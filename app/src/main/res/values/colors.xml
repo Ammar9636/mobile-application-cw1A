@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wellnest Modern Theme - Fresh & Minimal -->
+    <!-- Mood: Refreshing • Balanced • Modern Minimalism -->
+
+    <!-- Primary Colors (60%) - Clean Modern Foundation -->
+    <color name="primary_background">#FAFAFA</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="surface_light">#F5F9FA</color>
+    <color name="surface_card">#FEFEFE</color>
+
+    <!-- Secondary Colors (30%) - Calm Cyan Focus -->
+    <color name="wellness_primary">#00ACC1</color>
+    <color name="wellness_primary_dark">#00838F</color>
+    <color name="wellness_primary_light">#80DEEA</color>
+    <color name="wellness_secondary">#80DEEA</color>
+    <color name="wellness_secondary_light">#B2EBF2</color>
+
+    <!-- Accent Colors (10%) - Natural Connection -->
+    <color name="accent_primary">#A5D6A7</color>
+    <color name="accent_success">#66BB6A</color>
+    <color name="accent_warning">#FFA726</color>
+    <color name="accent_error">#EF5350</color>
+    <color name="accent_info">#00ACC1</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_tertiary">#9E9E9E</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Mood Colors - Fresh Palette -->
+    <color name="mood_happy">#A5D6A7</color>
+    <color name="mood_sad">#80DEEA</color>
+    <color name="mood_angry">#FF8A80</color>
+    <color name="mood_calm">#00ACC1</color>
+    <color name="mood_excited">#FFB74D</color>
+    <color name="mood_neutral">#B0BEC5</color>
+
+    <!-- Progress Colors -->
+    <color name="progress_complete">#00ACC1</color>
+    <color name="progress_high">#26C6DA</color>
+    <color name="progress_medium">#80DEEA</color>
+    <color name="progress_low">#B2EBF2</color>
+    <color name="progress_background">#E0F7FA</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary">#00ACC1</color>
+    <color name="button_primary_pressed">#00838F</color>
+    <color name="button_secondary">#80DEEA</color>
+    <color name="button_accent">#A5D6A7</color>
+
+    <!-- Shadow and Border Colors -->
+    <color name="shadow_light">#0D000000</color>
+    <color name="shadow_medium">#1A000000</color>
+    <color name="border_light">#E0F7FA</color>
+    <color name="border_medium">#B2EBF2</color>
+
+    <!-- Widget Colors -->
+    <color name="widget_background">#FFFFFF</color>
+    <color name="widget_text">#212121</color>
+    <color name="widget_accent">#00ACC1</color>
+
+    <!-- Notification Colors -->
+    <color name="notification_background">#00ACC1</color>
+    <color name="notification_text">#FFFFFF</color>
+
+    <!-- Ripple Effects -->
+    <color name="ripple_primary">#2000ACC1</color>
+    <color name="ripple_secondary">#2080DEEA</color>
+    <color name="ripple_accent">#20A5D6A7</color>
+
+    <!-- Logo Colors -->
+    <color name="logo_primary">#00ACC1</color>
+    <color name="logo_accent">#A5D6A7</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

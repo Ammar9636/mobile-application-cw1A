@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_widget"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_habit_widget"
+            android:tint="@color/widget_accent"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            style="@style/WidgetText.Title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Daily Habits"
+            android:textColor="@color/widget_text" />
+
+        <TextView
+            android:id="@+id/text_emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="🌟" />
+
+    </LinearLayout>
+
+    <!-- Progress Display -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/text_habit_progress"
+            style="@style/WidgetText.Body"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/widget_text"
+            android:fontFamily="sans-serif-medium"
+            tools:text="Habits: 3/5" />
+
+        <TextView
+            android:id="@+id/text_percentage"
+            style="@style/WidgetText.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/widget_accent"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            tools:text="60%" />
+
+    </LinearLayout>
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginBottom="8dp"
+        android:max="100"
+        android:progressDrawable="@drawable/widget_progress_bar"
+        tools:progress="60" />
+
+    <!-- Motivation Text -->
+    <TextView
+        android:id="@+id/text_motivation"
+        style="@style/WidgetText.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:textStyle="italic"
+        tools:text="Keep going!" />
+
+    <!-- Last Update -->
+    <TextView
+        android:id="@+id/text_last_update"
+        style="@style/WidgetText.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/text_hint"
+        tools:text="Updated: 14:30" />
+
+</LinearLayout>

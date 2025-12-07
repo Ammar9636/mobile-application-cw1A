@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Emoji -->
+    <TextView
+        android:id="@+id/textViewEmoji"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_emoji_selector"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:layout_marginBottom="8dp"
+        tools:text="😊" />
+
+    <!-- Mood Name -->
+    <TextView
+        android:id="@+id/textViewMoodName"
+        style="@style/WellnessTextCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        tools:text="Happy" />
+
+</LinearLayout>
